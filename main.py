@@ -14,4 +14,8 @@ def about():
 def contact():
     return render_template('contact.html')
 
+@app.route('/chat')
+def chat():
+    return render_template('chat.html')
+
 app.run(host='0.0.0.0', port=80, debug=True)

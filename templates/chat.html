@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% set active_page = 'chat' %}
+
+{% block saturs %}
+    <div class="" style="height: 500px; width: 800px;">
+        <div class="col-md-8 shadow-sm overflow-auto h-75 p-4 ml-4 mb-2 mt-2">
+            <span class="border">Message</span>
+        </div>
+
+        <div class="col-md-3 shadow-sm row float-right ">
+            <span class="border">Members</span>
+        </div>
+
+        <div class="input-group mb-2 dropdown-item fixed-bottom">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="button-addon2">
+            
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}
