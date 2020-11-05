@@ -1,0 +1,9 @@
+{"msg": "aiziet", "user": "Skolotajs"}
+{"msg": "qweqweqwe", "user": "Guest"}
+{"msg": "23r23r", "user": "Guest"}
+{"msg": "A robber pulled a gun on Chuck Norris. Chuck asked him if be wanted that gun rammed down his his throat or shoved up his ass? The robber peed his pants and ran.", "user": "Chuck Norris"}
+{"msg": "", "user": "Guest"}
+{"msg": "Hello", "user": "Guest"}
+{"msg": "Guest changed nick to DeKuN", "user": "Admin"}
+{"msg": "Hi", "user": "Guest"}
+{"msg": "Privet", "user": "DeKuN"}

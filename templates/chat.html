@@ -3,24 +3,37 @@
 {% set active_page = 'chat' %}
 
 {% block saturs %}
-    <div class="" style="height: 500px; width: 800px;">
-        <div class="col-md-8 shadow-sm overflow-auto h-75 p-4 ml-4 mb-2 mt-2">
-            <span class="border">Message</span>
-        </div>
+    <div class="container-fluid p-0 mh-auto">
+        <div class="row w-100 h-auto pt-3 pl-5 pr-0 d-flex">
+            <div class="msg mr-auto shadow p-4 pr-0 m-3 overflow-auto col-md-8" style="height: 720px;">
+                <ul class="chat" id="chats">
+                    <li class="left clearfix">
+                        <div class="chat-body clearfix">
+                            <i>26.10. 8:30</i> <b>Admin:</b> Welcome to super chat!
+                        </div>
 
-        <div class="col-md-3 shadow-sm row float-right ">
-            <span class="border">Members</span>
-        </div>
+                    </li>      
 
-        <div class="input-group mb-2 dropdown-item fixed-bottom">
-            <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="button-addon2">
-            
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-            
+                </ul>
+
+            </div>
+
+            <div class="msg shadow p-4 pr-0 m-3 col-md-3" style="height: 720px;">
+                <span class="border">Members</span>
             </div>
 
         </div>
 
+
+        <div class="fixed-bottom shadow input-group p-3 pl-5">
+            <input type="text" id="message" class="input form-control" placeholder="Write a Message" aria-describedby="button-addon2">
+            <div class="pl-3 pr-3">
+                <button onClick="getMsg();" class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+
+            </div>
+            
+        </div>
+
     </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/chat.js') }}"></script>
 {% endblock %}

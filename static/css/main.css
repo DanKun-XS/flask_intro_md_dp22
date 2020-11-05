@@ -1,3 +1,10 @@
 .active > a{
     color: red;
 }
+.back {
+    background-color: azure;
+}
+
+.msg {
+    background-color: snow;
+}
